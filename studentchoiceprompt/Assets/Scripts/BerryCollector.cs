@@ -13,6 +13,9 @@ public class BerryCollector : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        Debug.Log(berryCount);
+
         if (Input.GetKey(KeyCode.E)) 
         {
             PlayerPickup();
